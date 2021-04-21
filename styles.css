@@ -1,4 +1,19 @@
-ongletsGauche {
+ul {
     font-size: 20px;
     color: gold;
+}
+
+h1 {
+    font-size: 30px;
+    color: darkgreen;
+    alignment: center;
+}
+
+.ongletsG {
+    color: darkgreen;
+    font-size: 40px;
+    border-top-width: 20px;
+    border-right-width: 20px;
+    border-left-width: 20px;
+    border-bottom-width: 20px;
 }
