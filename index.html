@@ -1,76 +1,236 @@
-
 <!doctype html>
-<html>
+<html lang="fr">
 <head>
     <title>This is Tegrity Pizza!</title>
-    <html lang="fr">
     <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
 </head>
 <body>
-<div id="barre-top" class="onglets">
-    <ul id="ongletsGauche" class="ongletsG">
-        <a href="lienVersNotrePageUberEats.com"> Uber Eats </a>
-        <a href="lienVersNotrePageDeliveroo.com"> Deliveroo </a>
-        </ul>
-    <ul id="ongletsDroite">
-        <a href="#Pizzas"> Nos Pizzas </a>
-        <a href="#Suivre"> Nous Suivre </a>
-        <a href="#Propos"> À Propos </a>
-        <a href="#Contact"> Contact </a>
-    </ul>
+<div class="top">
+    <div class="empty header"> &nbsp; </div>
+    <div class="topUber header"><a href="lienVersNotrePageUberEats.com" class="lien" >Uber Eats</a></div>
+    <div class="topDeliveroo header"><a href="lienVersNotrePageDeliveroo.com" class="lien" >Deliveroo</a></div>
+    <div class="topPizzas header" ><a href="#Pizzas" class="lien lienInterne" id="Int1">Nos Pizzas</a></div>
+    <div class="topProduits header" ><a href="#Produits" class="lien lienInterne" id="Int2">Nos Produits</a></div>
+    <!---     <div class="ep header"> &nbsp;</div> --->
+    <div class="topLogo header"><img src="fixes/Tegrity_Vdef_transparentV2.png" alt="logo Tegrity Pizza" id="logo1"/></div>
+    <div class="topPropos header"><a href="#Propos" class="lien lienInterne" id="Int3">À Propos</a></div>
+    <div class="topPresse header"><a href="#Presse" class="lien lienInterne" id="Int4">Presse</a></div>
+    <div class="topSuivre header" ><a href="#Suivre" class="lien lienInterne" id="Int5">Nous Suivre</a></div>
+    <div class="topContact header"><a href="#Contact" class="lien lienInterne" id="Int6">Contact</a></div>
+    <div class="empty header"> &nbsp; </div>
+    <div class="ep2 header2 "> &nbsp;</div>
+    <div class="ep3 header2 "> &nbsp;</div>
 </div>
-<div id="photos-slide">
+<section id="slideshow">
+    <div class="mainSlides">
+        <div class="container">
+            <div class="c_slider"></div>
+            <div class="slider">
+                <figure>
+                    <img src="fixes/photo_slider_1b.jpg" class="slideItem">
+                </figure>
+                <figure>
+                    <img src="fixes/photo_slider_2b.jpg" class="slideItem">
+                </figure>
+                <figure>
+                    <img src="fixes/photo_slider_3b.jpg" class="slideItem">
+                </figure>
+                <span id="timeline"></span>
+            </div>
+        </div>
 
+        <span id="timeline"></span>
+    </div>
+</section>
+<div class="mainPizzas titre" id="Pizzas"><br>Nos Pizzas
+    <div class="recettes">
+        <div class="ingredients">
+            <h2> &nbsp;</h2>
+        </div>
+        <div class="ingredients ingredients1">
+            <h2 class="nomPizza">Marguarita</h2>
+            <li>Pâte Tegrity</li>
+            <li>Sauce Tomate Tegrity</li>
+            <li>Mozzarella di Bufala fior di latte</li>
+            <li>Basilic Agricool</li>
+            <li>Olives</li>
+            <li>Étincelles de Tegrity</li>
+        </div>
+        <div class="ingredients ingredients2">
+            <h2 class="nomPizza">L'Orientale</h2>
+            <li>Pâte Tegrity</li>
+            <li>Sauce Tomate Tegrity</li>
+            <li>Mozzarella di Bufala fior di latte</li>
+            <li>Basilic Agricool</li>
+            <li>Merguez La Boucherie Moderne</li>
+            <li>Chorizo La Boucherie Moderne</li>
+            <li>Poivrons</li>
+            <li>Olives</li>
+            <li>Étincelles de Tegrity</li>
+        </div>
+        <div class="ingredients ingredients3">
+            <h2 class="nomPizza">La Parisienne</h2>
+            <li>Pâte Tegrity</li>
+            <li>Sauce Tomate Tegrity</li>
+            <li>Mozzarella di Bufala fior di latte</li>
+            <li>Basilic Agricool</li>
+            <li>Jambon de Paris La Boucherie Moderne</li>
+            <li>Champignons de Paris</li>
+            <li>Étincelles de Tegrity</li>
+        </div>
+        <div class="ingredients">
+            <h2> &nbsp;</h2>
+        </div>
+        <div class="ingredients">
+            <h2> &nbsp;</h2>
+        </div>
+        <div class="ingredients ingredients4">
+            <h2 class="nomPizza">La Norvégienne</h2>
+            <li>Pâte Tegrity</li>
+            <li>Crême Fraiche Tegrity</li>
+            <li>Mozzarella di Bufala fior di latte</li>
+            <li>Basilic Agricool</li>
+            <li>Saumon</li>
+            <li>Étincelles de Tegrity</li>
+        </div>
+        <div class="ingredients ingredients5">
+            <h2 class="nomPizza">La 4 Fromages</h2>
+            <li>Pâte Tegrity</li>
+            <li>Sauce Tomate Tegrity</li>
+            <li>Mozzarella di Bufala fior di latte</li>
+            <li>Gorgonzola AOP</li>
+            <li>Cantal AOP</li>
+            <li>Parmesan AOP</li>
+            <li>Basilic Agricool</li>
+            <li>Étincelles de Tegrity</li>
+        </div>
+        <div class="ingredients ingredients6">
+            <h2 class="nomPizza">L'Ephémère | L'hispanique</h2>
+            <li>Pâte Tegrity</li>
+            <li>Sauce Tomate Tegrity</li>
+            <li>Mozzarella di Bufala fior di latte</li>
+            <li>Jambon ibérique Pata Negra La Boucherie Moderne</li>
+            <li>Fromage Espagnol qui va bien</li>
+            <li>Basilic Agricool</li>
+            <li>Étincelles de Tegrity</li>
+        </div>
+        <div class="ingredients">
+            <h2> &nbsp;</h2>
+        </div>
+    </div>
 </div>
-<br>
 
-<div id="Pizzas">
-    <h1>Nos Pizzas</h1>
-
+<div class="mainProduits titre" id="Produits"><br>Produits
+    <div class="listeProduits">
+        <div class="ingredients">
+            <h2> &nbsp;</h2>
+        </div>
+        <div class="productItem">
+            <h3>Notre fabuleuse pâte Tegrity</h3>
+            <p>La fabuleuse pâte Tegrity est composée des meilleures farines, pour une pâte
+                légère, complexe et savoureuse. En plus de la meilleure farine de blé 00, nous avons
+                ajouté de la farine de ... pour une texture incomparable, et bien sûr de la farine
+                de ... pour un goût innatendu qui mèle subtilement des notes de noisette et de sésame,
+                ainsi qu'un soupson d'un ingrédient secret que tout le monde nous envie.
+                Enfin, notre huile d'olive infusée maison, à laquelle nous ajoutons quelques gouttes de
+                ... à haute concentration, pour donner l'étonnante huile Tegrity, permet de lier le tout
+                pour une expérience inégalable.
+            </p>
+        </div>
+        <div class="productItem">
+            <h3>Notre délicieuse sauce tomate Tegrity</h3>
+            <p>La délicieuse sauce tomate Tegrity est faite à partir des meilleures tomates que l'Italie
+                nous propose, à savoir les San Mazarno (AOP), cultivées en pleine terre au pied du Vésuve,
+                récoltées à maturité et mis en conserve dans la journée pour préserver au maximum ses apports
+                nutritionels. Nous les cuisinons en ajoutant un subtil mélange de d'herbes aromatiques, d'épices
+                et toujours la juste dose d'huile Tegrity pour une sauce tomate au goût incomparable.
+            </p>
+        </div>
+        <div class="productItem">
+            <h3>Nos fromages</h3>
+            <p>Soucieux de vous offrir les meilleurs produits, nous sommes ravis de pouvoir compter sur La Fromagerie
+                Moderne pour nous permettre de vous proposer des fromages de caractère, au goût franc et à la texture
+                fondante. Nous qui pensons qu'on ne fait des bonnes pizzas qu'avec des produits de qualité, c'est tout
+                naturellement que nous nous sommes tournés vers ce fournisseur exemplaire qui sélectionne pour nous
+                les meilleures mozzarella et les plus savoureuses burrata.
+            </p>
+        </div>
+        <div>
+            <h3> &nbsp;</h3>
+        </div>
+        <div>
+            <h3> &nbsp;</h3>
+        </div>
+        <div class="productItem">
+            <h3>Nos viandes</h3>
+            <p>Soucieux de vous offrir les meilleurs produits, nous sommes ravis de pouvoir compter sur La Boucherie
+                Moderne pour nous permettre de vous proposer des viandes de caractère, au goût franc et à la texture
+                fondante. Nous qui pensons qu'on ne fait des bonnes pizzas qu'avec des produits de qualité, c'est tout
+                naturellement que nous nous sommes tournés vers ce fournisseur exemplaire qui sélectionne pour nous
+                les meilleures viandes et les plus savoureuses charcuteries.
+            </p>
+        </div>
+    </div>
 </div>
-<br>
 
-<div id="Suivre">
-    <h1>Nous Suivre</h1>
-    <table id="Reseaux-Sociaux">
-        <tr>
-            <td><a href="lienVersSubscribeYoutube">logo Youtube</a></td>
-            <td><a href="lienVersSubscribeInstagram"> logo Instagram </a></td>
-            <td><a href="lienVersSubscribeFacebook"> logo facebook </a></td>
-            <td><a href="lienVersSubscribeTwitch"> logo Twitch </a></td>
-        </tr>
-        <tr>
-            <td><a href="lienVersDerniereVideoYoutube"></td> <!---// via playlist--->
-            <td><a href="lienVersDernierePhotoInstagram"></td>
-            <td><a href="lienVersDernierePostFacebook"></td>
-            <td><a href="lienVersDerniereVideoTwitch"></td>
-        </tr>
-    </table>
+<div class="mainPropos titre" id="Propos"><br>À Propos
+    <p>
+        Ceci est le premier paragraphe de la section à propos, cette section est ici pour expliquer
+        notre démarche, qui nous sommes et pourquoi nous souhaitons apporter de la tégrité en pagaille
+        et couvrir la capitale.
+    </p>
+    <p> Est ce que c'est ici que nous abordons le fait que nos fournisseurs soient les plus Tegrity
+        compatible de tout paname, ou est ce qu'on se contente des quelques lignes sur notre menu?
+        Je suppose  que c'est mieux d'en faire un petit speech ici
+    </p>
+</div>
+<div class="mainPresse titre" id="Presse"><br>Presse
+    <p>
+        Ils ont testé et adopté la fabuleuse pizza Tegrity
+    </p>
 </div>
 
-<br>
-
-<div id="Propos">
-    <h1>À Propos</h1>
-
+<div class="mainSuivre titre" id="Suivre"><br>Nous Suivre<br>
+    <div class="tabRes">
+        <p class="ep4 rsCase "> &nbsp;</p>
+        <p class="rsCase">
+            <a href="lienVersSubscribeYoutube">
+                <img alt="logoYoutube" src="fixes/logoYoutube.png" class="logoRS"> <!--- revoir responsive dimensions--->
+            </a>
+        </p>
+        <p class="rsCase">
+            <a href="lienVersSubscribeInstagram">
+                <img alt="logoInstagram" src="fixes/logoInstagram.png" class="logoRS">
+            </a>
+        </p>
+        <p class="rsCase">
+            <a href="lienVersSubscribeFacebook">
+                <img alt="logoFacebook" src="fixes/logoFacebook.png" class="logoRS">
+            </a>
+        </p>
+        <p class="rsCase">
+            <a href="lienVersSubscribeTwitch">
+                <img alt="logoTwitch" src="fixes/logoTwitch.png" class="logoRS">
+            </a>
+        </p>
+        <p class="ep4 rsCase "> &nbsp;</p>
+        <p class="ep4 rsCase "> &nbsp;</p>
+        <p  class="rsCase"><a href="lienVersDerniereVideoYoutube">YT</a></p> <!---// via playlist--->
+        <p  class="rsCase"><a href="lienVersDernierePhotoInstagram"> IG</a></p>
+        <p  class="rsCase"><a href="lienVersDernierePostFacebook">FB</a></p>
+        <p  class="rsCase"><a href="lienVersDerniereVideoTwitch">TW</a></p>
+        <p  class="ep4 rsCase "> &nbsp;</p>
+    </div>
 </div>
 
-<br>
-
-<div id="Contact">
-    <h1>Contact</h1>
-
+<div class="mainContact titre" id="Contact"><br>Contact
+    <p>helllo</p>
+    <p>helllo</p>
+    <p>helllo</p>
+    <p>helllo</p>
+    <p>helllo</p>
 </div>
-
-<br>
-
-<p><strong>TegrityPizza Static Website</strong><br>
-
-    I hope you’ll enjoy it<br>
-
-    made in Paris with Tegrity</p>
 </body>
 </html>

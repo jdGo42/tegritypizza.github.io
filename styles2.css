@@ -15,15 +15,15 @@ Ajuster le responsive design 4h
 */
 
 html {
-    background-color: dimgrey;
+    background-color: lightgreen;
 }
 body {
     font-family: 'Open Sans', sans-serif;
     padding: 0px;
     margin: 0px 0px;
-    /*  grid-row-gap: 2px;
-      display: grid;
-      grid-template-rows: auto auto auto auto auto auto; */
+  /*  grid-row-gap: 2px;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto; */
     font-size: 10px;
     width: 100%;
 }
@@ -35,7 +35,6 @@ body {
     position:  fixed;
     top: 0%;
     width: 100%;
-    background-color: darkslategray;
     /* left: 6%;/*
      transform: translateX(-90%); */
 }
@@ -46,7 +45,6 @@ body {
     font-weight: bolder;
     font-size: 1.2vw;
 }
-
 /* Section destinee a compenser le menu fixe en haut
 de la page quand on clique sur le lien qui relie vers l id
 #Pizzas:target {
@@ -71,7 +69,7 @@ de la page quand on clique sur le lien qui relie vers l id
 .titre {
     font-family:Apple Chancery, cursive;
     font-style: italic;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     font-weight: bold;
     color: darkgreen;
@@ -79,8 +77,10 @@ de la page quand on clique sur le lien qui relie vers l id
 
 
 .topUber {
+    background-color: greenyellow;
 }
 .topDeliveroo {
+    background-color: green;
 }
 /*
 .ep {
@@ -89,12 +89,15 @@ de la page quand on clique sur le lien qui relie vers l id
 }
 */
 .topPizzas {
+    background-color: blue;
 }
 
 .topProduits {
+    background-color: mediumpurple;
 }
 
 .topLogo {
+    background-color: brown;
     grid-row: span 2;
     text-align: center;
 
@@ -111,25 +114,33 @@ de la page quand on clique sur le lien qui relie vers l id
 }
 
 .topPropos {
+    background-color: cadetblue;
 }
 
 .topSuivre {
+    background-color: blueviolet;
 }
 
 .topPresse {
+    background-color: mediumblue;
 }
 
 .topContact {
+    background-color: cornflowerblue;
+}
+.empty {
+    background-color: dodgerblue;
 }
 .ep2 {
+    background-color: dodgerblue;
     grid-column: span 5;
 }
 .ep3 {
+    background-color: dodgerblue;
     grid-column: span 5;
 }
 .mainSlides {
     padding-top: 130px;
-    background-color: dimgrey;
 }
 /*
 .slideItem {
@@ -138,14 +149,11 @@ de la page quand on clique sur le lien qui relie vers l id
 } */
 
 .mainPizzas {
-    /*    grid-column: span 18; */
+    background-color: yellow;
+/*    grid-column: span 18; */
 }
 h2 {
     font-size: 1em;
-    font-weight: bold;
-}
-h3 {
-    font-size: 0.6em;
     font-weight: bold;
 }
 li {
@@ -153,6 +161,7 @@ li {
     justify-content: left;
     text-align: left;
     font-size:calc(12px + .3vw);
+    background-color: grey;
 }
 .recettes {
     display: grid;
@@ -165,6 +174,7 @@ li {
 .nomPizza {
     font-size: 2vw;
     text-align: center;
+    background-color: snow;
 }
 
 .mainProduits{
@@ -179,22 +189,28 @@ li {
 }
 
 .mainPresse {
+    background-color: beige;
 }
 
 .mainSuivre {
+    background-color: red;
 }
 .tabRes{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
     grid-template-rows:auto auto;
+    background-color: black;
 }
 .mainPropos {
+    background-color: saddlebrown;
     grid-column: span 18;
 }
 .mainContact {
+    background-color: mediumpurple;
     grid-column: span 18;
 }
 .rsCase {
+    background-color: grey;
 }
 p{
     margin: 20px;
@@ -223,7 +239,7 @@ Cette partie concerne le slideshow du début de page
     padding: 0px;
     margin: 0px auto 2em;
     border: 0px solid #ddd;
-    background: black;
+    background: #FFF;
     /* CSS3 effects */
     background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
     border-radius: 2px 2px 2px 2px;
@@ -261,7 +277,7 @@ Cette partie concerne le slideshow du début de page
     position:relative;
     width: 100%;
     background-size: contain;
-    height: 250px;
+    height: 200px;
     overflow: hidden;
 }
 
@@ -316,7 +332,7 @@ Cette partie concerne le slideshow du début de page
 
 .slideItem {
     width:90vw;
-    height: 250px;
+    height: 200px;
 }
 
 
