@@ -15,7 +15,7 @@ Ajuster le responsive design 4h
 */
 
 html {
-    background-color: dimgrey;
+    background-color: #939597;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -35,7 +35,7 @@ body {
     position:  fixed;
     top: 0%;
     width: 100%;
-    background-color: darkslategray;
+    background-color: #363945;
     /* left: 6%;/*
      transform: translateX(-90%); */
 }
@@ -152,14 +152,19 @@ li {
     display: grid;
     justify-content: left;
     text-align: left;
-    font-size:calc(12px + .3vw);
+    font-size:calc(14px + .3vw);
 }
 .recettes {
     display: grid;
     grid-template-columns:0.5fr 2fr 2fr 2fr 0.5fr;
     grid-column-gap: 5px;
     grid-template-rows: auto;
+    grid-row-gap: 10px;
     text-align: left;
+}
+
+.ingredients, .productItem{
+    background-color: #E0B589;
 }
 
 .nomPizza {
@@ -175,6 +180,7 @@ li {
     grid-template-columns: 0.2fr 2fr 2fr 2fr 0.2fr;
     grid-template-rows: auto;
     grid-column-gap: 30px;
+    grid-row-gap: 10px;
 
 }
 
@@ -188,8 +194,14 @@ li {
     grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
     grid-template-rows:auto auto;
 }
-.mainPropos {
-    grid-column: span 18;
+.tabPropos {
+    display: grid;
+    grid-template-columns: 0.2fr 2fr 0.2fr;
+}
+
+.tabPresse {
+    display: grid;
+    grid-template-columns: 0.2fr 2fr 0.2fr;
 }
 .mainContact {
     grid-column: span 18;
