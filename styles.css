@@ -36,6 +36,9 @@ body {
     top: 0%;
     width: 100%;
     background-color: #363945;
+    background-image: linear-gradient(#363945,#363945,#939597);
+    text-align: center;
+    align-items: center;
     /* left: 6%;/*
      transform: translateX(-90%); */
 }
@@ -44,7 +47,9 @@ body {
     justify-self: center;
     color: black;
     font-weight: bolder;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
+    text-align: center;
+    color: greenyellow;
 }
 
 /* Section destinee a compenser le menu fixe en haut
@@ -156,8 +161,8 @@ li {
 }
 .recettes {
     display: grid;
-    grid-template-columns:0.5fr 2fr 2fr 2fr 0.5fr;
-    grid-column-gap: 5px;
+    grid-template-columns:0.2fr 2fr 2fr 2fr 0.2fr;
+    grid-column-gap: 30px;
     grid-template-rows: auto;
     grid-row-gap: 10px;
     text-align: left;
@@ -210,7 +215,7 @@ li {
 }
 p{
     margin: 20px;
-    font-size: 0.6em;
+    font-size: 0.5em;
     font-weight: lighter;
 }
 
@@ -323,7 +328,7 @@ Cette partie concerne le slideshow du début de page
 /* complétez le sélecteur : */
 #slideshow .slider {
     /* ... avec la propriété animation */
-    animation: slider 12s infinite;
+    animation: slider 18s infinite;
 }
 
 .slideItem {
