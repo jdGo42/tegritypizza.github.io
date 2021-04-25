@@ -169,6 +169,9 @@ li {
 }
 
 .ingredients, .productItem{
+    background-image:url(fixes/menu_background.jpg);
+    background-size: cover;
+   opacity: 1;
     background-color: #E0B589;
 }
 
