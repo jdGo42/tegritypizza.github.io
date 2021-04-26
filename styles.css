@@ -152,7 +152,7 @@ de la page quand on clique sur le lien qui relie vers l id
     position:relative;
     display:grid;
     grid-template-columns: auto;
-    width: 100%;
+    width: 30vw;
 }
 .mainPizzas {
     /*    grid-column: span 18; */
