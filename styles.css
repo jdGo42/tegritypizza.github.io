@@ -12,13 +12,19 @@ Faire l'intégration gg maps 1h
 Faire que les liens internes ne nous fassent pas arriver 130 px trop bas a cause du menu fixe
 Ajuster le responsive design 4h
 
+Effet NoteBook fond beige une ligne par ingredients
+style photos menu (superposition et hauteur largeur normalisee
+
+
+
 */
 
 html {
-    background-color: #939597;
+    background-color: #f7f8f8;
 }
-body {
-    font-family: 'Open Sans', sans-serif;
+body {/*
+    font-family: 'Open Sans', sans-serif; */
+    font-family: 'Tangerine', cursive;
     padding: 0px;
     margin: 0px 0px;
     /*  grid-row-gap: 2px;
@@ -36,7 +42,7 @@ body {
     top: 0%;
     width: 100%;
     background-color: #363945;
-    background-image: linear-gradient(#363945,#363945,#939597);
+    background-image: linear-gradient(#E0B589,#E0B589,#f7f8f8);
     text-align: center;
     align-items: center;
     /* left: 6%;/*
@@ -49,7 +55,7 @@ body {
     font-weight: bolder;
     font-size: 1.3vw;
     text-align: center;
-    color: greenyellow;
+    color: darkolivegreen;
 }
 
 /* Section destinee a compenser le menu fixe en haut
@@ -74,12 +80,13 @@ de la page quand on clique sur le lien qui relie vers l id
 }
 */
 .titre {
-    font-family:Apple Chancery, cursive;
+    font-family: 'Tangerine', cursive;/*
+    font-family:Apple Chancery, cursive;*/
     font-style: italic;
     font-size: 4em;
     text-align: center;
     font-weight: bold;
-    color: darkgreen;
+    color: darkolivegreen;
 }
 
 
@@ -141,7 +148,12 @@ de la page quand on clique sur le lien qui relie vers l id
     width: 100%;
     height: 3vh;
 } */
-
+.photoPizza{
+    position:relative;
+    display:grid;
+    grid-template-columns: auto;
+    width: 100%;
+}
 .mainPizzas {
     /*    grid-column: span 18; */
 }
