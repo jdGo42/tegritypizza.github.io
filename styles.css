@@ -6,14 +6,19 @@ Faire un onglet Nos produits ou on parle des fournisseurs 2h DONE
 Faire un onglet Presse 20min DONE
 Ressortir le logo en svg, pourquoi pas une deuxieme version
 avec feuille qui s'affiche quand on passe la souris dessus 2h ou 3h avec option RESTE OPTION
-Faire un background correct 2h
+Faire un background correct 2h DONE
 faire la section contact avec mail contact 3h
 Faire l'intégration gg maps 1h
-Faire que les liens internes ne nous fassent pas arriver 130 px trop bas a cause du menu fixe
+Faire que les liens internes ne nous fassent pas arriver 130 px trop bas a cause du menu fixe DONE
 Ajuster le responsive design 4h
 
 Effet NoteBook fond beige une ligne par ingredients
 style photos menu (superposition et hauteur largeur normalisee
+faire un selecteur version ... verion normale qui change la photo
+changer parisienne en pirmavera artichauts roquette tapenade DONE
+changer hispanique epheemere en parisienne ephere (mettre mozza paris DONE
+kick chorizo
+check comment faire apparaitre notre manifesto en tete de google
 
 
 
@@ -22,15 +27,14 @@ style photos menu (superposition et hauteur largeur normalisee
 html {
     background-color: #f7f8f8;
 }
-body {/*
-    font-family: 'Open Sans', sans-serif; */
-    font-family: 'Tangerine', cursive;
+body {
+    font-family: 'Cookie', cursive;
     padding: 0px;
     margin: 0px 0px;
     /*  grid-row-gap: 2px;
       display: grid;
       grid-template-rows: auto auto auto auto auto auto; */
-    font-size: 10px;
+    font-size: 12px;
     width: 100%;
 }
 
@@ -45,6 +49,8 @@ body {/*
     background-image: linear-gradient(#E0B589,#E0B589,#f7f8f8);
     text-align: center;
     align-items: center;
+    font-family: 'Tangerine', cursive;
+    z-index: 1;
     /* left: 6%;/*
      transform: translateX(-90%); */
 }
@@ -53,14 +59,18 @@ body {/*
     justify-self: center;
     color: black;
     font-weight: bolder;
-    font-size: 1.3vw;
+    font-size: 2vw;
     text-align: center;
     color: darkolivegreen;
 }
 
 /* Section destinee a compenser le menu fixe en haut
-de la page quand on clique sur le lien qui relie vers l id
+de la page quand on clique sur le lien qui relie vers l id */
 #Pizzas:target {
+    padding-top: 130px;
+    margin-top: -130px;
+}
+#Produits:target {
     padding-top: 130px;
     margin-top: -130px;
 }
@@ -74,11 +84,18 @@ de la page quand on clique sur le lien qui relie vers l id
     padding-top: 130px;
     margin-top: -130px;
 }
+
+#Presse:target {
+    padding-top: 130px;
+    margin-top: -130px;
+}
+
+
 #Contact:target {
     padding-top: 130px;
     margin-top: -130px;
 }
-*/
+
 .titre {
     font-family: 'Tangerine', cursive;/*
     font-family:Apple Chancery, cursive;*/
@@ -158,12 +175,15 @@ de la page quand on clique sur le lien qui relie vers l id
     /*    grid-column: span 18; */
 }
 h2 {
-    font-size: 1em;
+    font-size: 30px;
     font-weight: bold;
+    font-family: 'Cookie', cursive;
 }
 h3 {
     font-size: 0.6em;
     font-weight: bold;
+
+    font-family: 'Cookie', cursive;
 }
 li {
     display: grid;
@@ -181,15 +201,33 @@ li {
 }
 
 .ingredients, .productItem{
-    background-image:url(fixes/menu_background.jpg);
-    background-size: cover;
-   opacity: 1;
-    background-color: #E0B589;
+  /*  background-image:url(fixes/menu_background.jpg);
+   background-color: #E0B589;
+      opacity: 1;
+    background-size: cover; */
+    background-color: rgba(244, 181, 137, 0.3);
+    border: 3px darkolivegreen double;
+    border-radius: 5px;
 }
 
 .nomPizza {
-    font-size: 2vw;
+    font-size: 2.8vw;
     text-align: center;
+}
+
+.selecteurVersion {
+    display: grid;
+    justify-items: center;
+    justify-self: end;
+    align-items: end;
+}
+
+.btn {
+    display:inline-block;
+    text-align:center;
+    font-family: 'Cookie', cursive;
+    font-size: 18px;
+
 }
 
 .mainProduits{
@@ -230,8 +268,10 @@ li {
 }
 p{
     margin: 20px;
-    font-size: 0.5em;
+    font-size: 0.4em;
     font-weight: lighter;
+
+    font-family: 'Cookie', cursive;
 }
 
 .logoRS {
