@@ -46,7 +46,8 @@ body {
     top: 0%;
     width: 100%;
     background-color: #363945;
-    background-image: linear-gradient(#E0B589,#E0B589,#f7f8f8);
+  /*  background-image: linear-gradient(#E0B589,#E0B589,#f7f8f8); */
+    background-image: linear-gradient(#A553C2, #A553C2, #FEB4FD);
     text-align: center;
     align-items: center;
     font-family: 'Tangerine', cursive;
