@@ -25,7 +25,7 @@ check comment faire apparaitre notre manifesto en tete de google
 */
 
 html {
-    background-color: #FFB5FD;
+    background-color: rgb(167, 180, 143);
 }
 body {
     font-family: 'Cookie', cursive;
@@ -45,9 +45,10 @@ body {
     position:  fixed;
     top: 0%;
     width: 100%;
-    background-color: #363945;
+    background-color:darkolivegreen;
+    ;
   /*  background-image: linear-gradient(#E0B589,#E0B589,#f7f8f8); */
-    background-image: linear-gradient(#A553C2, #FEB4FD, #FEB4FD);
+    background-image: linear-gradient( darkolivegreen, rgb(144, 155, 113), rgb(167, 180, 143));
     text-align: center;
     align-items: center;
     font-family: 'Tangerine', cursive;
@@ -62,7 +63,7 @@ body {
     font-weight: bolder;
     font-size: 2vw;
     text-align: center;
-    color: darkolivegreen;
+    color: rgb(220, 238, 214);
 }
 
 /* Section destinee a compenser le menu fixe en haut
@@ -104,8 +105,9 @@ de la page quand on clique sur le lien qui relie vers l id */
     font-size: 4em;
     text-align: center;
     font-weight: bold;
-    color: darkolivegreen;
+    color: rgb(220, 238, 214);
 }
+
 
 
 .topUber {
@@ -186,6 +188,17 @@ h3 {
 
     font-family: 'Cookie', cursive;
 }
+
+h4, pre{
+
+    font-family: 'Tangerine', cursive;/*
+    font-family:Apple Chancery, cursive;*/
+    font-style: italic;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(220, 238, 214);
+}
 li {
     display: grid;
     justify-content: left;
@@ -207,7 +220,7 @@ li {
       opacity: 1;
     background-size: cover; */
     /*background-color: rgba(244, 181, 137, 0.3); */
-    background-color: #C0FFC7;
+    background-color: rgb(118, 129, 98);
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23b0f2a7' fill-opacity='0.24'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 
     border: 3px darkolivegreen double;
@@ -377,7 +390,7 @@ Cette partie concerne le slideshow du début de page
     box-shadow: 0 0 65px rgba(0,0,0, 0.5) inset;
 }
 
-/* fonction d'animation, n'oubliez pas de prefixer ! */
+/* fonction d'animation, ne pas oublier de prefixer ! */
 @keyframes slider {
     0%, 30%, 100%	{ left: 0 }
     33%, 66%		{ left: -100% }
