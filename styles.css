@@ -177,10 +177,20 @@ de la page quand on clique sur le lien qui relie vers l id */
 .mainPizzas {
     /*    grid-column: span 18; */
 }
+.presentation {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Cookie', cursive;
+    color: rgb(241, 176, 203);
+    text-align: center;
+}
 h2 {
     font-size: 30px;
     font-weight: bold;
     font-family: 'Cookie', cursive;
+    color: rgb(220, 238, 214);
+    text-align: center;
+    
 }
 h3 {
     font-size: 0.6em;
@@ -198,6 +208,12 @@ h4, pre{
     text-align: center;
     font-weight: bold;
     color: rgb(220, 238, 214);
+}
+
+h5 {
+    font-size: 1.2em;
+    color: rgb(220, 238, 214);
+    text-align: center;
 }
 li {
     display: grid;
