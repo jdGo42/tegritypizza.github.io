@@ -2,23 +2,24 @@
 <html lang="fr">
 <head>
     <title>This is Tegrity Pizza!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="Découvrez la fabuleuse Pizza Tegrity, la première et la meilleure pizza Tegrity de Paris.">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cookie&Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="fixes/Tegrity_Vdef_transparentV2.png" />
 </head>
 <body>
-<div class="top">
+
+
+<!-- <div class="top">
     <div class="empty header"> &nbsp; </div>
     <div class="topUber header"><a href="https://www.ubereats.com/fr-en/store/tegrity-pizza/x0yCFLDGUVibgNYxqNZGtQ" class="lien" target="_blank" >Uber Eats</a></div>
-    <div class="topDeliveroo header"><a href="lienVersNotrePageDeliveroo.com" class="lien" >Deliveroo</a></div>
+    <div class="topDeliveroo header"><a href="lienVersNotrePageDeliveroo.com" class="lien" disabled>Deliveroo</a></div>
     <div class="topPizzas header" ><a href="#Pizzas" class="lien lienInterne" id="Int1">Nos Pizzas</a></div>
     <div class="topProduits header" ><a href="#Produits" class="lien lienInterne" id="Int2">Nos Produits</a></div>
-    <!---     <div class="ep header"> &nbsp;</div> --->
- <!--   <div class="topLogo header"><img onmouseout="src='fixes/Tegrity_Vdef_transparentV2.png'" onmouseover="src='fixes/Tegrity_Vfeuille_transparentV2.png'" src="fixes/Tegrity_Vdef_transparentV2.png" alt="logo Tegrity Pizza" id="logo1"/></div>
- --->
     <div class="topLogo header"><a href="http://www.tegritypizza.com"><img src="fixes/Tegrity_Vdef_transparentV2.png" alt="logo Tegrity Pizza" id="logo1"/></a></div>
     <div class="topPropos header"><a href="#Propos" class="lien lienInterne" id="Int3">À Propos</a></div>
     <div class="topPresse header"><a href="#Presse" class="lien lienInterne" id="Int4">Presse</a></div>
@@ -27,8 +28,71 @@
     <div class="empty header"> &nbsp; </div>
     <div class="ep2 header2 "> &nbsp;</div>
     <div class="ep3 header2 "> &nbsp;</div>
+</div> -->
+
+<!-- HEADER -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="https://www.ubereats.com/fr-en/store/tegrity-pizza/x0yCFLDGUVibgNYxqNZGtQ">Uber Eats</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Deliveroo (bientot displonible)</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Pizzas">Nos pizzas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Produits">Produits</a>
+      </li>
+    </ul>
+
+    <ul class="nav navbar-nav mx-auto">
+      <li cliass="nav-item">
+        <a class="navbar-brand" href="http://www.tegritypizza.com">
+          <img src="fixes/Tegrity_Vdef_transparentV2.png" alt="..." height="55">
+        </a>
+      </li>
+    </ul>
+
+    <ul class="nav navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#Propos">À Propos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Presse">Presse</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Suivre">Nous suivre</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- CAROUSEL IMAGES -->
+<div class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="fixes/pizza_base.JPG" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="fixes/photo_slider_2b.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="fixes/photo_slider_3b.jpg" alt="Third slide">
+    </div>
+  </div>
 </div>
-<section id="slideshow">
+
+<!-- <section id="slideshow">
     <div class="mainSlides">
         <div class="container">
             <div class="c_slider"></div>
@@ -45,7 +109,8 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
+
 <div class ="presentation">
     <h2>Bienvenue chez Tegrity Pizza</h2><br>
     <h5>Notre pâte à pizza est fabriquée par nos soins, et se compose de farines de chanvre, de petit épeautre et de blé, toutes biologiques<br>
@@ -91,16 +156,16 @@
                     <input class="btn btn-default" type="submit" value="Classique" />
                 </li>
             </div>
-        -->    
+        -->
         </div>
         <div class="ingredients ingredients3">
-            <h2 class="nomPizza">La Végétarienne</h2>
+            <h2 class="nomPizza">La Primavera</h2>
             <img src="fixes/pic2_vegi.png" class="photoPizza">
             <li>&emsp;Pâte Tegrity</li>
             <li>&emsp;Sauce Tomate Tegrity</li>
             <li>&emsp;Mozzarella fior di latte</li>
             <li>&emsp;Basilic Frais</li>
-            <li>&emsp;Légumes de saison rôtis par nos soins</li>
+            <li>&emsp;Légumes du soleil rôtis par nos soins</li>
             <li>&emsp;Roquette</li><br>
      <!--        <div class="selecteurVersion">
                 <li>Choisissez votre version</li>
@@ -165,7 +230,7 @@
             <li>&emsp;Mozzarella fior di latte</li>
             <li>&emsp;Basilic Frais</li>
             <li>&emsp;Coppa</li>
-            <li>&emsp;Légumes de saison rôtis par nos soins</li>
+            <li>&emsp;Légumes du soleil rôtis par nos soins</li>
             <li>&emsp;Roquette</li>
             <li>&emsp;Étincelles de Tegrity</li><br>
      <!--        <div class="selecteurVersion">
@@ -187,12 +252,17 @@
             <h2> &nbsp;</h2>
         </div>
         <div class="ingredients ingredients3">
-            <h2 class="nomPizza">L'Éphémère | </h2>
+            <h2 class="nomPizza">L'Éphémère | La Reine</h2>
             <img src="fixes/pic2_reine.png" class="photoPizza">
-            <li>&emsp;Change tous les mardi</li>
-            <li>&emsp;Voir notre page Google</li>
-            <li>&emsp;N'hésitez pas à y laisser un avis</li>
-            <br>
+            <li>&emsp;Pâte Tegrity</li>
+            <li>&emsp;Sauce Tomate Tegrity</li>
+            <li>&emsp;Mozzarella fior di latte</li>
+            <li>&emsp;Basilic Frais</li>
+            <li>&emsp;Jambon de Paris du boucher</li>
+            <li>&emsp;Champignons de Paris</li>
+            <li>&emsp;Shiitake</li>
+            <li>&emsp;Girolles</li>
+            <li>&emsp;Étincelles de Tegrity</li><br>
        <!--      <div class="selecteurVersion">
                 <li>Choisissez votre version</li>
                 <li>
@@ -232,7 +302,7 @@
         <div class="productItem">
             <h3>Nos étincelles de Tegrity</h3>
             <p>Soucieux de vous offrir une expérience inoubliable, nous sommes fiers de compter parmi nos partenaires "Le lab du bonheur" avec lequel nous avons sélectionné pour vous les
-                meilleures variétés de CBD Suisse, pays à la pointe de la culture de CBD depuis plus de 10 ans, pour s'accorder parfaitement avec nos produits de qualité. "Le lab du bonheur" fait figure de pionnier dans la vente CBD haut de gamme.  
+                meilleures variétés de CBD Suisse, pays à la pointe de la culture de CBD depuis plus de 10 ans, pour s'accorder parfaitement avec nos produits de qualité. "Le lab du bonheur" fait figure de pionnier dans la vente CBD haut de gamme.
             </p>
         </div>
    <!--     <div>
@@ -254,7 +324,7 @@
 </div>
 </div>
 
-<div class="mainPropos titre" id="Propos"><br>À Propos
+<div class="mainPropos titre" id="Propos"><br>&Agrave; Propos
     <div class="tabPropos">
         <div>
             <h2> &nbsp;</h2>
@@ -287,46 +357,45 @@
 </div>
 
 <div class="mainSuivre titre" id="Suivre"><br>Nous Suivre<br>
-    <div class="tabRes">
-        <p class="ep4 rsCase "> &nbsp;</p>
-        <p class="rsCase">
-            <a href="lienVersSubscribeYoutube">
-                <img alt="logoYoutube" src="fixes/logoYoutube.png" class="logoRS"> <!--- revoir responsive dimensions--->
-            </a>
-        </p>
-        <p class="rsCase">
-            <a href="lienVersSubscribeInstagram">
-                <img alt="logoInstagram" src="fixes/logoInstagram.png" class="logoRS">
-            </a>
-        </p>
-        <p class="rsCase">
-            <a href="lienVersSubscribeFacebook">
-                <img alt="logoFacebook" src="fixes/logoFacebook.png" class="logoRS">
-            </a>
-        </p>
-        <p class="rsCase">
-            <a href="lienVersSubscribeTwitch">
-                <img alt="logoTwitch" src="fixes/logoTwitch.png" class="logoRS">
-            </a>
-        </p>
-        <p class="ep4 rsCase "> &nbsp;</p>
-        <p class="ep4 rsCase "> &nbsp;</p>
-        <p  class="rsCase"><a href="lienVersDerniereVideoYoutube">YT</a></p> <!---// via playlist--->
-        <p  class="rsCase"><a href="lienVersDernierePhotoInstagram"> IG</a></p>
-        <p  class="rsCase"><a href="lienVersDernierePostFacebook">FB</a></p>
-        <p  class="rsCase"><a href="lienVersDerniereVideoTwitch">TW</a></p>
-        <p  class="ep4 rsCase "> &nbsp;</p>
+  <div class="sm_container">
+    <div class="row">
+      <div class="col-sm">
+        <a href="https://www.youtube.com/channel/UCPGPFX03kooLHrce6UFb6GA">
+          <img alt="logoYoutube" src="fixes/logoYoutube.png" class="logoRS">
+        </a>
+      </div>
+      <div class="col-sm">
+        <a href="https://www.instagram.com/tegritypizza/">
+          <img alt="logoInstagram" src="fixes/logoInstagram.png" class="logoRS">
+        </a>
+      </div>
+      <div class="col-sm">
+        <a href="lienVersDernierePostFacebook">
+          <img alt="logoFacebook" src="fixes/logoFacebook.png" class="logoRS">
+        </a>
+      </div>
+      <div class="col-sm">
+        <a href="lienVersDerniereVideoTwitch">
+          <img alt="logoTwitch" src="fixes/logoTwitch.png" class="logoRS">
+        </a>
+      </div>
     </div>
+  </div>
 </div>
+
+
 
 <div class="mainContact titre" id="Contact"><br>Contact
    <h4><pre>
-Tegrity Pizza 
+Tegrity Pizza
 81 bis boulevard Soult
 75012 Paris
 09.85.12.90.35
 </pre>
     </h4>
 </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
