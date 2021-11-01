@@ -1,4 +1,4 @@
-CHANGELOG 
+CHANGELOG
 (31/10) :
 - Bootstrap ajoute via CDN (v4.0)
 - Nouveau header (responsive)
@@ -14,5 +14,11 @@ et une meilleure gestion du code par la suite (a voir ensemble si c'est ok pour 
 - L'emplacement de l'icône dans le menu déroulant du header en cas de la navigation sur téléphone
 - Le menu ainsi que les produits étaient responsive
 
-(1/11) : 
-- Mise a jour du lien Deliveroo
+(1/11) :
+- Couleur des boutons du header (le mode "active" du bootstrap)
+- Mise a jour du lien Deliveroo (et donc activation du bouton dans le header)
+- La partie "Nos Pizzas" est responsive (mais pas terminée ; il faut régler correctement les tailles sur petits écrans)
+- La partie "Produits" -> même chose que la partie "Nos Pizzas"
+- Plus de problème d'accent sur le titre de la partie "A Propos" (can't have problems with accent encoding when you don't have accents)
+- Petit menage dans le fichier index.html
+- Réajustement de la taille (fixe) des div pour les pizzas
