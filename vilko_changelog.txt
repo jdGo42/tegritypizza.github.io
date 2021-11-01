@@ -1,4 +1,5 @@
-CHANGELOG (31/10) :
+CHANGELOG 
+(31/10) :
 - Bootstrap ajoute via CDN (v4.0)
 - Nouveau header (responsive)
 - Nouveau carrousel
@@ -6,8 +7,12 @@ CHANGELOG (31/10) :
 - Les icônes de la partie "Nous suivre" sont désormais responsives et le nom de chaque réseau a été supprimé pour éviter des problèmes d'alignement
 et une meilleure gestion du code par la suite (a voir ensemble si c'est ok pour vous)
 - Bouton 'Deliveroo' bloqué en attendant le lien
+- favicon
 
 -> Ce qui a été perdu (bug) :
 - La taille de l'icône du header (plus grande a l'origine)
 - L'emplacement de l'icône dans le menu déroulant du header en cas de la navigation sur téléphone
 - Le menu ainsi que les produits étaient responsive
+
+(1/11) : 
+- Mise a jour du lien Deliveroo
