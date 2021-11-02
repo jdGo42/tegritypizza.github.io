@@ -25,7 +25,7 @@ check comment faire apparaitre notre manifesto en tete de google
 */
 
 html {
-    background-color: rgb(167, 180, 143);
+    background-color: rgb(34, 37, 27);
 }
 body {
     font-family: 'Cookie', cursive;
@@ -36,7 +36,7 @@ body {
       grid-template-rows: auto auto auto auto auto auto; */
     font-size: 12px;
     width: 100%;
-    background-color: rgb(167, 180, 143);
+    background-color: rgb(34, 37, 27);
 }
 
 .top {
@@ -46,11 +46,10 @@ body {
     position:  fixed;
     top: 0%;
     width: 100%;
-    background-color:darkolivegreen;
-    ;
+    background-color: rgb(34, 37, 27);
   /*  background-image: linear-gradient(#E0B589,#E0B589,#f7f8f8); */
-    background-image: linear-gradient( darkolivegreen, rgb(144, 155, 113), rgb(167, 180, 143));
-    text-align: center;
+/*    background-image: linear-gradient( darkolivegreen, rgb(144, 155, 113), rgb(167, 180, 143));
+*/    text-align: center;
     align-items: center;
     font-family: 'Tangerine', cursive;
     z-index: 1;
@@ -58,46 +57,7 @@ body {
      transform: translateX(-90%); */
 }
 
-.lien {
-    justify-self: center;
-    color: black;
-    font-weight: bolder;
-    font-size: 1.5vw;
-    text-align: center;
-    color: rgb(220, 238, 214);
-}
 
-/* Section destinee a compenser le menu fixe en haut
-de la page quand on clique sur le lien qui relie vers l id */
-#Pizzas:target {
-    padding-top: 130px;
-    margin-top: -130px;
-}
-#Produits:target {
-    padding-top: 130px;
-    margin-top: -130px;
-}
-
-#Suivre:target {
-    padding-top: 130px;
-    margin-top: -130px;
-}
-
-#Propos:target {
-    padding-top: 130px;
-    margin-top: -130px;
-}
-
-#Presse:target {
-    padding-top: 130px;
-    margin-top: -130px;
-}
-
-
-#Contact:target {
-    padding-top: 130px;
-    margin-top: -130px;
-}
 
 .titre {
     font-family: 'Tangerine', cursive;/*
@@ -106,7 +66,7 @@ de la page quand on clique sur le lien qui relie vers l id */
     font-size: 4em;
     text-align: center;
     font-weight: bold;
-    color: rgb(220, 238, 214);
+    color: rgb(207, 243, 195);
 }
 
 
@@ -143,23 +103,6 @@ de la page quand on clique sur le lien qui relie vers l id */
     object-fit: center;
 }
 
-.topPropos {
-}
-
-.topSuivre {
-}
-
-.topPresse {
-}
-
-.topContact {
-}
-.ep2 {
-    grid-column: span 5;
-}
-.ep3 {
-    grid-column: span 5;
-}
 .mainSlides {
     padding-top: 130px;
     background-color: dimgrey;
@@ -179,13 +122,22 @@ de la page quand on clique sur le lien qui relie vers l id */
 .mainPizzas {
     /*    grid-column: span 18; */
 }
-.presentation {
+.presentation, h5 {
     font-size: 1.5em;
     font-weight: bold;
     font-family: 'Cookie', cursive;
-    color: rgb(241, 176, 203);
+    color: rgb(220, 238, 214);
     text-align: center;
+  /*  h5 {
+        font-size: 1.2em;
+        color: rgb(220, 238, 214);
+        text-align: center;
+    }  */
 }
+h5 {
+    font-size: 1.2em;;
+}
+
 h2 {
     font-size: 30px;
     font-weight: bold;
@@ -212,17 +164,14 @@ h4, pre{
     color: rgb(220, 238, 214);
 }
 
-h5 {
-    font-size: 1.2em;
-    color: rgb(220, 238, 214);
-    text-align: center;
-}
 li {
     display: grid;
     justify-content: left;
     text-align: left;
-    font-size:calc(14px + .3vw);
+    font-size:calc(14px + .6vw);
+    font-weight: bolder;
 }
+/* OBSOLETE SINCE VILKO MERGE
 .recettes {
     display: grid;
     grid-template-columns:0.2fr 2fr 2fr 2fr 0.2fr;
@@ -231,6 +180,7 @@ li {
     grid-row-gap: 10px;
     text-align: left;
 }
+*/
 
 .ingredients, .productItem{
   /*  background-image:url(fixes/menu_background.jpg);
@@ -239,6 +189,8 @@ li {
     background-size: cover; */
     /*background-color: rgba(244, 181, 137, 0.3); */
     background-color: rgb(118, 129, 98);
+    color: rgb(14, 32, 8);
+
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23b0f2a7' fill-opacity='0.24'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 
     border: 3px darkolivegreen double;
@@ -249,6 +201,9 @@ li {
 .nomPizza {
     font-size: 2.8vw;
     text-align: center;
+    color: rgb(14, 32, 8);
+
+    
 }
 
 .selecteurVersion {
@@ -306,8 +261,8 @@ li {
 
 p{
     margin: 20px;
-    font-size: 0.4em;
-    font-weight: lighter;
+    font-size: 0.5em;
+    font-weight: normal;
 
     font-family: 'Cookie', cursive;
 }
@@ -433,7 +388,7 @@ Cette partie concerne le slideshow du début de page
 /* ELEMENTS CSS - DEV ALEX */
 
 .navbar-custom {
-  background-color: rgb(167, 180, 143);
+    background-image: linear-gradient( rgb(1, 1, 1), rgb(21, 22, 19),  rgb(34, 37, 27),  rgb(34, 37, 27));
 }
 
 .carousel-item img {
@@ -441,11 +396,17 @@ Cette partie concerne le slideshow du début de page
   width: 750px;
 }
 
-#navbar_logo {
-
-}
-
 .sm_container {
   margin: auto;
   width: 50%;
+}
+
+ /*tt class du logo*/
+ .logoTegrity{
+    size: 5vw;
+}
+
+/* ATTEMPT TO CHANGE COLOR OF LINKS AT TOP */
+.nav-link {
+    color:olive;
 }
