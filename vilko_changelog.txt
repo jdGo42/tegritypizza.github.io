@@ -22,3 +22,21 @@ et une meilleure gestion du code par la suite (a voir ensemble si c'est ok pour 
 - Plus de problème d'accent sur le titre de la partie "A Propos" (can't have problems with accent encoding when you don't have accents)
 - Petit menage dans le fichier index.html
 - Réajustement de la taille (fixe) des div pour les pizzas
+
+(jdGo42 2/12) :
+- Mise a jour des couleurs de fond et de typo
+- Mise a jour recettes
+- Mise a jour texte d'accueil
+- Clean un peu le css
+Ce que j'ai cherché à faire (et n'ai pas réussi):
+- Changer la couleur des liens du top
+- Mettre le logo en beaucoup plus gros (il doit déborder sur les photos), en gros il doit presque toucher les titres Nos pizzas, Nos produits quand tu cliques dessus (et que du coup ça fait scroller vers le bas la page)
+- Qu'il y ait un peu d'air à gauche et à droite des cartouches pizzas et produits, le tout dans la largeur initiale (100%width) // (pas besoin de scroller horizontalement pour tout voir)
+- Faire en sorte qu'il n'y ait pas une barre de défilement droite gauche (chez moi j'ai un peu d'air à droite, mais hors cadre à l'affichage)
+Ce que je n'ai même pas essayé de faire parce que je ne connais pas assez le fonctionnement de bootstrap:
+- Quand l'écran est moins large, laisser le logo Tegrity Pizza DANS LE HEADER
+- Passer de 3 cartouches de large à 2, puis 1 (à ce stade 3 à 1 direct)
+- L'éphémère à la 3ème ligne prend toute la largeur, comment lui ordonner de ne pas prendre plus que ces comparses? il existe un child attribute ou qqchose du genre?
+- Si un jour on a 8 pizzas et donc 2 en dernière ligne, un équivalent de get attribute from parent m'intéresse.
+
+Voilà, je crois que c'est tout pour aujourd'hui, je sais bien que je pollue un peu encore ta semaine, merci pour tout
